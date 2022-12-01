@@ -6,7 +6,7 @@ import json
 
 scriptPath = os.path.dirname(os.path.realpath(__file__))
 
-exeCurrentPath =r"/home/enes/Desktop/Backup/mongodump"
+exeCurrentPath =r"/usr/bin/mongodump"
 tmp = scriptPath+"/tmp"
 
 with open('info.json') as json_file:
